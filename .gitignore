@@ -1,0 +1,18 @@
+# 1. Исключаем ВСЁ ядро Битрикса
+/bitrix/
+
+# 2. НО  кастомные файлы (разрешаем их)
+!/bitrix/templates/
+!/bitrix/php_interface/
+
+# 3. Исключаем всё остальное, что не нужно
+/upload/
+/bitrixsetup.php.log
+*.log
+*.tmp
+*.sql
+*.tar
+*.zip
+.DS_Store
+/.idea/
+/.vscode/
