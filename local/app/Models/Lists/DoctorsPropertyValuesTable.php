@@ -8,5 +8,5 @@ use Models\AbstractIblockPropertyValuesTable;
 
 class DoctorsPropertyValuesTable extends AbstractIblockPropertyValuesTable
 {
-    public const IBLOCK_ID = 16;
+    public const IBLOCK_ID = \HW3_DOCTORS_IBLOCK_ID;
 }

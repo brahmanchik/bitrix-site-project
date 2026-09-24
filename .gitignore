@@ -20,3 +20,4 @@
 # Игнорируем кастомные логи домашнего задания
 /local/logs/
 *.log
+/local/php_interface/homework3_config.php

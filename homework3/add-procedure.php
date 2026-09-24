@@ -9,7 +9,7 @@ use Bitrix\Main\Loader;
 Loc::loadMessages(__FILE__);
 $APPLICATION->SetTitle(Loc::getMessage('HW3_ADD_PROCEDURE'));
 
-const PROCEDURES_IBLOCK_ID = 17;
+const PROCEDURES_IBLOCK_ID = HW3_PROCEDURES_IBLOCK_ID;
 
 $request = Context::getCurrent()->getRequest();
 $error = '';

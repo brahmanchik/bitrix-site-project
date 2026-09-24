@@ -8,7 +8,7 @@ use Bitrix\Main\Loader;
 use Models\Lists\DoctorsPropertyValuesTable;
 use Bitrix\Main\Localization\Loc;
 
-const PROCEDURES_IBLOCK_ID = 17;
+const PROCEDURES_IBLOCK_ID = HW3_PROCEDURES_IBLOCK_ID;
 Loc::loadMessages(__FILE__);
 
 $APPLICATION->SetTitle(Loc::getMessage('HW3_TITLE'));

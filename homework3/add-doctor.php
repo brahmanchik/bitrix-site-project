@@ -9,7 +9,7 @@ use Bitrix\Main\Loader;
 Loc::loadMessages(__FILE__);
 $APPLICATION->SetTitle(Loc::getMessage('HW3_ADD_DOCTOR'));
 
-const DOCTORS_IBLOCK_ID = 16;
+const DOCTORS_IBLOCK_ID = HW3_DOCTORS_IBLOCK_ID;
 
 $request = Context::getCurrent()->getRequest();
 $error = '';

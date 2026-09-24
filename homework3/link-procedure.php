@@ -11,7 +11,7 @@ use Models\Lists\DoctorsPropertyValuesTable;
 Loc::loadMessages(__FILE__);
 $APPLICATION->SetTitle(Loc::getMessage('HW3_LINK_TITLE'));
 
-const PROCEDURES_IBLOCK_ID = 17;
+const PROCEDURES_IBLOCK_ID = HW3_PROCEDURES_IBLOCK_ID;
 
 $request = Context::getCurrent()->getRequest();
 $error = '';
